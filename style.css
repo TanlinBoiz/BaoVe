@@ -1,0 +1,97 @@
+.secDau{
+	background-color: rgb(230, 228, 228);
+}
+h5{
+	font-size: small;
+	color: rgb(91, 91, 91);
+}
+
+.xem{
+	margin-top: 20px;
+}
+
+
+
+
+.rowHinh{
+	margin: 0 0;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+.box1,
+.box2
+{
+	
+	position: relative;
+	margin: 10px 10px;
+	width: 30.3333%;
+	height: 100%;
+	cursor: pointer;
+	}
+.box3,
+.box4
+{
+	
+	position: relative;
+	margin: 10px 10px;
+	width: 30.3333%;
+	height: 100%;
+	cursor: pointer;
+	}
+.box5{
+	position: relative;
+	margin: 0 0;
+	width: 40.3333%;
+	height: 150%;
+	cursor: pointer;
+}
+
+
+.text{
+	position: absolute;
+    bottom: 0px;
+    left: 0;
+    padding: 16px;
+    height:100%;
+    letter-spacing: .5px;
+    color: #fff;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.text h2{
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	padding: 16px;
+}
+span{
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	padding: 16px;
+}
+
+nav img{
+	width: 100%;
+	height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  
+}
+
+@media only screen and (max-width: 768px) {
+	
+	.box1,.box2,.box3,.box4,.box5{
+		width: 90%;
+		margin: 0;
+	}
+	.btn{
+		display: none;
+	}
+}
